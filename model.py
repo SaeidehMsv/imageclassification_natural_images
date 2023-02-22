@@ -11,7 +11,7 @@ from keras.layers import Dropout
  
 
 
-
+# model
 def create_model():
   model = Sequential()
   model.add(Conv2D(100, (3, 3), activation='relu', kernel_initializer='he_uniform', input_shape=(256, 256, 3)))
