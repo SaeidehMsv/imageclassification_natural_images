@@ -3,7 +3,7 @@ from model import create_model
 import numpy as np
 from PIL import Image
 
-path = 'D:\ML\ML_projects\imageclassification\\natural_images'
+path = '\\natural_images'
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
     directory=path,
     labels="inferred",
